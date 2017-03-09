@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[58]:
-
 import collections
 from itertools import tee, islice
 
@@ -26,11 +21,3 @@ def ngrams(lst, n):
       break
 
 print(collections.Counter(ngrams(text, n)))
-
-
-# 
-
-# In[ ]:
-
-
-
